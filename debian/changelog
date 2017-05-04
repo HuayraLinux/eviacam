@@ -1,3 +1,18 @@
+eviacam (2.1.2-0) unstable; urgency=low
+
+  * Workaround for camera that does not start on Windows
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Thu, 04 May 2017 13:48:56 -0300
+
+eviacam (2.1.1-0) unstable; urgency=low
+
+  * Added config option to minimize the main window at startup and added cmd line
+    option to load custom configuration file (thanks to Bartosz Jura)
+  * Remove old tracker
+  * Add support for OpenCV 3 on linux (OpenCV 2 is still supported)
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Thu, 04 May 2017 13:48:56 -0300
+
 eviacam (2.1.0-1) unstable; urgency=low
 
   * Acknowledge previous NMU, thanks Tobias!
